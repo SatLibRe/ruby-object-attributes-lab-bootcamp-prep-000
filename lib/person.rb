@@ -7,11 +7,11 @@ class Persond
     @name
   end 
   
-  def jobs=(new_breed)
-    @breed = new_breed
+  def jobs=(new_job)
+    @jobs = new_job
   end 
   
-  def breed 
-    @breed
+  def jobs 
+    @jobs
   end 
 end 
